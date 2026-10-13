@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.0] - 2026-10-13
+
+### Novidades
+- Contato atualizado: e-mail gvweb.solucoes@gmail.com e celular/WhatsApp (24) 99941-7827.
+
 ## [1.1.0] - 2026-10-13
 
 ### Novidades
