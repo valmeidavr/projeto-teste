@@ -1,0 +1,14 @@
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ambiente e segredos
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
