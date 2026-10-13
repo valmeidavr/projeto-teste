@@ -1,0 +1,10 @@
+{
+  "name": "github-gitflow",
+  "version": "1.0.0",
+  "description": "Skills para trabalhar com GitHub pelo terminal (publicar repositório, GitHub Pages, commits/PRs, issues e releases) seguindo o padrão Git Flow.",
+  "author": { "name": "Vinicius de Oliveira Almeida" },
+  "homepage": "https://github.com/valmeidavr/projeto-teste/tree/main/plugins/github-gitflow",
+  "repository": "https://github.com/valmeidavr/projeto-teste",
+  "license": "MIT",
+  "keywords": ["git", "github", "gitflow", "github-pages", "pull-request", "release"]
+}
