@@ -73,7 +73,18 @@ gh repo create <nome> --private --source=. --remote=origin --push --description 
 - Use `--public` só se o usuário pedir (ou para GitHub Pages em conta gratuita).
 - Se o nome já existir: `gh repo view <usuario>/<nome>` para conferir; ofereça outro nome ou usar o existente (`git remote add origin <url>` + `git push -u origin main`).
 
+## 5b. Preparar o Git Flow
+
+Logo após o primeiro push, crie a branch `develop` a partir de `main` e marque a primeira versão — a partir daqui o trabalho segue a skill `gitflow`:
+
+```bash
+git tag -a v1.0.0 -m "v1.0.0" && git push origin v1.0.0
+git switch -c develop && git push -u origin develop
+```
+
 ## 6. (Opcional) README
+
+Se o Git Flow já estiver ativo, o README entra por uma `feature/readme` (veja a skill `gitflow`).
 
 Se o projeto não tiver `README.md`, ofereça criar um curto: título, uma frase do que é, como rodar/abrir, tecnologias. Commit separado: `docs: adiciona README`.
 
