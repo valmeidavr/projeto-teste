@@ -38,11 +38,7 @@ Commite só quando o usuário pedir. Push só quando o usuário pedir ou quando 
 
 ## Branches
 
-Se estiver na branch padrão (`main`/`master`) e for fazer uma mudança que vai virar PR, crie uma branch antes:
-
-```bash
-git switch -c <tipo>/<descricao-curta>    # ex.: feat/secao-depoimentos, fix/menu-mobile
-```
+O projeto usa **Git Flow** — nomes, origem e destino das branches estão na skill `gitflow`. Resumo: `feature/<nome>` sai de `develop` e volta por PR para `develop`; `release/*` e `hotfix/*` são as únicas que entram em `main`.
 
 Atualizar com a principal:
 
