@@ -24,7 +24,7 @@ git rev-parse --is-inside-work-tree 2>/dev/null && git status -sb && git remote 
 
 ## Padrão de branches: Git Flow
 
-Este projeto segue **Git Flow**. Antes de criar branch, commitar, fazer push, abrir/mesclar PR, publicar versão ou fazer deploy, carregue e siga a skill `gitflow` (`.claude/skills/gitflow/SKILL.md`). Onde os guias abaixo mostram comandos de branch/merge, prevalece o que a skill `gitflow` define — em especial: nada de commit direto em `main`/`develop`, features saem de `develop`, e deploy é release (ou hotfix) mesclada em `main`.
+Os repositórios seguem **Git Flow**. Antes de criar branch, commitar, fazer push, abrir/mesclar PR, publicar versão ou fazer deploy, carregue e siga a skill `gitflow` deste mesmo plugin. Onde os guias abaixo mostram comandos de branch/merge, prevalece o que a skill `gitflow` define — em especial: nada de commit direto em `main`/`develop`, features saem de `develop`, e deploy é release (ou hotfix) mesclada em `main`.
 
 ## Escolha o guia certo
 

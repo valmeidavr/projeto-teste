@@ -1,11 +1,11 @@
 ---
 name: gitflow
-description: "Padrão de branches Git Flow (main, develop, feature/*, release/*, hotfix/*) para qualquer trabalho com git ou GitHub neste projeto. Use esta skill sempre que for criar branch, commitar, fazer push, abrir/mesclar pull request, publicar versão, fazer deploy ou corrigir algo em produção - e também sempre que a skill github for usada, mesmo que o usuário não diga 'gitflow' (por exemplo 'sobe essa alteração', 'faz o deploy', 'corrige isso no site')."
+description: "Padrão de branches Git Flow (main, develop, feature/*, release/*, hotfix/*) para qualquer trabalho com git ou GitHub. Use esta skill sempre que for criar branch, commitar, fazer push, abrir/mesclar pull request, publicar versão, fazer deploy ou corrigir algo em produção - e também sempre que a skill github for usada, mesmo que o usuário não diga 'gitflow' (por exemplo 'sobe essa alteração', 'faz o deploy', 'corrige isso no site')."
 ---
 
 # Git Flow
 
-Este projeto usa Git Flow. Toda mudança entra por uma branch de trabalho e chega à produção apenas por release ou hotfix. Assim `main` sempre reflete o que está no ar (o GitHub Pages publica a partir dela) e `develop` acumula o que vai para a próxima versão.
+Os repositórios usam Git Flow. Toda mudança entra por uma branch de trabalho e chega à produção apenas por release ou hotfix. Assim `main` sempre reflete o que está no ar (quando há GitHub Pages, ele publica a partir dela) e `develop` acumula o que vai para a próxima versão.
 
 Use `git` puro e `gh`. A extensão `git flow` não é necessária: os comandos abaixo funcionam em qualquer máquina.
 
