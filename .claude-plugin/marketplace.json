@@ -1,0 +1,13 @@
+{
+  "name": "valmeidavr",
+  "owner": { "name": "Vinicius de Oliveira Almeida" },
+  "description": "Plugins do Claude Code de Vinicius de Oliveira Almeida.",
+  "plugins": [
+    {
+      "name": "github-gitflow",
+      "source": "./plugins/github-gitflow",
+      "description": "Skills de GitHub (repositório, Pages, PRs, issues, releases) seguindo o padrão Git Flow.",
+      "version": "1.0.0"
+    }
+  ]
+}

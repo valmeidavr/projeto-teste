@@ -2,6 +2,8 @@
 
 Objetivo: colocar um site estático (HTML/CSS/JS, ou o build de um framework) em `https://<usuario>.github.io/<repo>/`.
 
+> **Git Flow:** o Pages publica a partir de `main`, então atualizar o site = mesclar uma `release/*` ou `hotfix/*` em `main` (skill `gitflow`). Os passos abaixo servem para **ativar** o Pages; depois disso, não há "deploy" separado.
+
 ## Pré-requisitos
 
 - O repositório já existe no GitHub com o código enviado (senão, siga `publicar.md`).

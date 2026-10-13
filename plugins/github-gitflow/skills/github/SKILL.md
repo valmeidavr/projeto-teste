@@ -22,6 +22,10 @@ git rev-parse --is-inside-work-tree 2>/dev/null && git status -sb && git remote 
 - Se `gh auth status` falhar: peça ao usuário para rodar `gh auth login` (é interativo, você não consegue rodar por ele).
 - Descubra o usuário logado com `gh api user --jq .login` — use-o como dono padrão dos repositórios.
 
+## Padrão de branches: Git Flow
+
+Os repositórios seguem **Git Flow**. Antes de criar branch, commitar, fazer push, abrir/mesclar PR, publicar versão ou fazer deploy, carregue e siga a skill `gitflow` deste mesmo plugin. Onde os guias abaixo mostram comandos de branch/merge, prevalece o que a skill `gitflow` define — em especial: nada de commit direto em `main`/`develop`, features saem de `develop`, e deploy é release (ou hotfix) mesclada em `main`.
+
 ## Escolha o guia certo
 
 Leia **apenas** o guia da tarefa em questão:
